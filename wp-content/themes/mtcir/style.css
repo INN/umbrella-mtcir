@@ -1,0 +1,40 @@
+/*
+Theme Name:     Montana Center for Investigative Reporting
+Theme URI:      http://largoproject.org
+Description:    A child theme for the Montana Center for Investigative Reporting based on the Project Largo parent theme.
+Author:         Adam Schweigert/INN
+Author URI:     http://largoproject.org
+Template:       largo-dev
+Version:        0.1.0
+*/
+
+/* links in general shall be black */
+a,
+a:visited,
+a:hover,
+a:visited {
+  color: #383838;
+}
+/* links inside stories shall be orange */
+#content p a,
+#content p a:hover {
+  color: #d23f00;
+}
+
+#site-footer a,
+#site-footer a:hover,
+#site-footer color {
+  color: #fff;
+}
+
+#main-nav.navbar {
+  border: none;
+}
+#main-nav.navbar .navbar-inner {
+  background: #5e8348;
+}
+#main-nav.navbar .nav > li > a { color: white; }
+#main-nav.navbar .nav > li > a:hover { color: #383838; }
+
+#main-nav .dropdown .caret:before { border-top: 6px solid white; }
+#main-nav .dropdown > a:hover .caret:before { border-top: 6px solid #383838; }
